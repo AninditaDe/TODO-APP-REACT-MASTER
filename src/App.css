@@ -1,0 +1,121 @@
+p {
+  margin: 0;
+}
+
+body {
+  padding: 0;
+}
+
+.todo {
+  border: 1px solid #26de81;
+  background-color: #26de81;
+  color: white;
+  border-radius: 6px;
+  margin: 0.5rem 0;
+  padding: 1rem 1rem;
+  width: 100%;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: none;
+  box-shadow: 1px 0 12px rgba(0, 0, 0, 0.13);
+}
+
+.add-todo-form {
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.input {
+  padding: 0.25rem 1rem;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #d1d8e0;
+  height: 45px;
+  flex-grow: 1;
+  box-shadow: 1px 0 12px rgba(0, 0, 0, 0.13);
+}
+
+.submit-button {
+  padding: 0.25rem 1rem;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 6px;
+  border: 1px solid #fa8231;
+  color: white;
+  background-color: #fa8231;
+  margin-left: 0.5rem;
+  height: 45px;
+}
+
+.submit-button:hover {
+  color: #fa8231;
+  background-color: white;
+  cursor: pointer;
+}
+
+.submit-button:focus,
+.input:focus {
+  outline: none;
+}
+
+.root {
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.todos-title {
+  color: gray;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0.25rem 0;
+}
+
+.validation-error {
+  font-size: 11px;
+  color: red;
+  bottom: -1.5rem;
+  position: absolute;
+  margin: 0;
+}
+
+.input-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+.dashboard {
+  display: flex;
+  border-radius: 6px;
+  color: white;
+  background-color: #45aaf2;
+  padding: 0.5rem;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 1rem;
+}
+
+.in-progress {
+  font-weight: 700;
+  font-size: 32px;
+  margin-right: 0.5rem;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  padding: 0.5rem;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+  color: #4b6584;
+  background-color: #d1d8e0;
+  margin-bottom: 0.5rem;
+}
