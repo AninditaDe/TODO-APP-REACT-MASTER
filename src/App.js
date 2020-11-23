@@ -39,7 +39,7 @@ function App() {
 
   return (
     <>
-      <div class="header">Dragos's Tasks</div>
+      <div class="header">Anindita's Tasks</div>
       <div className="root">
         <div className="dashboard">
           <p className="in-progress">{todos.length}</p>
